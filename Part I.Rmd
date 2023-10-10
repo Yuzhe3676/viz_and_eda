@@ -213,11 +213,12 @@ ggsave("./ggp_weather.pdf", ggp_weather, width = 8, height = 5)
 ```
 
 What about embedding..
+就是说可以在r chunk的指令里调节图片的格式
 ```{r, fig.width = 6, fig.height=3}
 ggp_weather
 ```
 
 Embed at different size.
-```{r, fig.width = 12, fig.height= 6}
+```{r, fig.width = 12, fig.height= 6 }
 ggp_weather
 ```

@@ -391,7 +391,7 @@ ggsave("./ggp_weather.pdf", ggp_weather, width = 8, height = 5)
 ##也可以保存成png形式
 ```
 
-What about embedding..
+What about embedding.. 就是说可以在r chunk的指令里调节图片的格式
 
 ``` r
 ggp_weather
