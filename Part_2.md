@@ -203,7 +203,7 @@ theme_set(theme_minimal() + theme(legend.position = "bottom"))
 
 #输出连续变量时的边框及内部填充的色谱颜色
 options(
-  ggplot2.continuous.colour = "viridis"
+  ggplot2.continuous.colour = "viridis",
   ggplot2.continuous.fill = "viridis"
 )
 
